@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEPETTO</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos/style.css">
+    <script src="main.js"></script>
+    <body>
+        <h1>GEPETTO</h1>
+    </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #8B4513;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .textodiv {
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 120px; /* Aumentado para que el texto no se oculte bajo el menú */
+            max-width: 80%;
+            text-align: left;
+        }
+        h1 {
+            color: #8B4513;
+            font-size: 36px;
+            text-align: center;
+        }
+        .contenedor-imagen {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contenedor-imagen img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>           
+        <ul>
+            <li><a href="INICIO.html">INICIO</a></li>
+            <li><a href="CATALOGO.html">CATÁLOGO</a></li>
+        </ul>
+    </nav>
+
+    <div class="textodiv">
+        <h1>UTILIDAD Y BELLEZA</h1>
+        <p>Transformamos la madera en piezas únicas que combinan belleza, funcionalidad y calidad artesanal.</p>
+        <p>Nos especializamos en la creación de artículos diseñados para embellecer espacios y hacer la vida más práctica,</p>
+        <p>fusionando la calidez de la madera con un diseño innovador y sostenible.</p>
+        
+        <div class="contenedor-imagen">
+            <img src="img/logo.jpg" alt="Logo de Gepetto">
+        </div>
+    </div> 
+</body>
+</html>

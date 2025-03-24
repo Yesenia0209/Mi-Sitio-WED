@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-image: url('fondo.jpg');  
+}
+
+/*Inicia Menu de navegación*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+/*Termina Menu de navegación*/
+
+
+.textodiv{
+    /*Esta clase maneja texto yo trabajare el texto, pero se pondra dentro de un div*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    color: rgb(13, 13, 14);
+    text-align: start;    
+
+    
+
+    text-align: center;
+    padding: 0px;
+    margin: 10%;
+    font-family: sans-serif;
+    display: flex;
+    line-height: 25px;
+     
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.textodivsegundo{
+    /*CLASE PARA LA CLASE SEGUNDA*/
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    color: rgb(12, 12, 12);
+    text-align: start;    
+
+    
+
+    text-align: center;
+    padding: 0px;
+    margin: 10%;
+    font-family: sans-serif;
+    display: flex;
+    line-height: 25px;
+    
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+.contenedor-imagen {
+    max-width: 100%; /* La imagen no superará el tamaño de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+
+
+.contenedor-imagen img {
+    display: block; /* Para eliminar el espacio adicional debajo de la imagen */
+    width: 100%; /* La imagen ocupará todo el ancho disponible en su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+p{
+    /*Estilo que se aplica para la etiqueta p*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    color: rgb(19, 46, 179);
+    text-align: justify;    
+    background-color: rgb(160, 160, 167);
+}
+
+h1{
+    /*Estilo que se aplica para la etiqueta h1*/
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(12, 12, 12, 0.699);
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: 
+    #3882a5;
+    color: white;
+}
+/* Menú de navegación */
+.contenedor-menu {
+    background-color: #332f2f;
+    padding: 15px 0;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.menu li a:hover {
+    background-color: #44a150;
+    border-radius: 5px;
+}
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.texto, .imagen {
+    width: 45%;
+}
+.texto h1, .texto p {
+    text-align: left;
+}
+.imagen img {
+    width: 100%;
+    max-width: 400px;
+}
+/* Material educativo */
+.material-educativo {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #a9bebe;
+    border-radius: 10px;
+}
+.material-educativo h2 {
+    color: #272525;
+}
+.material-educativo ul {
+    list-style: none;
+    padding: 0;
+}
+.material-educativo li {
+    margin: 10px 0;
+}
+.material-educativo a {
+    color: #6a6d6e;
+    text-decoration: none;
+}
+
+
+/* Alineación de las imágenes en fila horizontal */
+.imagenes {
+    display: flex;
+    flex-direction: row;         /* Cambia de columna a fila */
+    gap: 10px;                   /* Espacio entre las imágenes */
+}
+
+/* Alineación del texto educativo */
+.texto-educativo {
+    max-width: 50%;              /* El texto ocupará la mitad del espacio disponible */
+    padding-left: 20px;          /* Espacio a la izquierda del texto */
+}
+        /* Centrar el contenedor de las imágenes y el texto para la pagina de actividades */
+        .contenedor-imagen-texto {
+            display: flex;
+            justify-content: center;  /* Centra los elementos en el eje horizontal */
+            align-items: center;      /* Centra los elementos en el eje vertical */
+            gap: 20px;                /* Espacio entre las imágenes y el texto */
+            margin-top: 20px;         /* Espacio superior */
+        }
+
+        /* Estilo para las imágenes dentro del contenedor */
+        .imagenes {
+            display: flex;
+            gap: 10px;                /* Espacio entre las imágenes */
+        }
+
+        .imagenes img {
+            max-width: 250px;         /* Tamaño máximo para cada imagen manteniendo su tamaño*/
+            height: auto;             
+        }
+
+        /* Estilo para el texto del contenedos*/
+        .texto-educativo {
+            max-width: 225px;         /* Ancho máximo del texto */
+            padding-left: 20px;       /* Espacio entre las imágenes y el texto */
+            text-align: left;         /* Alinear el texto a la izquierda */
+        }
+        .boton-catalogo {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .boton {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #8B4513; /* Marrón madera */
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 2px solid #5A3212;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .boton:hover {
+            background-color: #654321; /* Marrón más oscuro al pasar el mouse */
+            transform: scale(1.1);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+        .boton-catalogo {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .boton {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #8B4513; /* Marrón madera */
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 2px solid #5A3212;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .boton:hover {
+            background-color: #654321; /* Marrón más oscuro al pasar el mouse */
+            transform: scale(1.1);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        
+        
